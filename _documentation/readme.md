@@ -43,3 +43,18 @@ Every post directory under `/data` must include a `meta.json` file. If it does n
 | `[words]` | Word count of the post |
 | `[slug]` | Unique identifier, **must match the post directory name** |
 | `[tags]` | *Not used* |
+
+## Changing the theme
+
+You will need [Typora](https://typora.io#download) and the theme you want to use for the blog, from the [Typora Theme Gallery](http://theme.typora.io).
+
+1. Follow [the instructions to install a new theme in Typora](http://theme.typora.io/doc/Install-Theme/)
+2. Open Typora, and set the active theme to be the one you want to use for the site
+3. Click `Help > Markdown Reference`
+4. Click `File > Export > HTML` and save the file somewhere
+5. Open the exported HTML file in your text editor of choice
+6. Towards the top of the document is a `<style>` tag with lots of CSS; copy the contents of the style tag into a new file
+7. Save the file as `typora.css`
+8. Replace the existing file `/css/typora.css` in this repository with the file you just saved
+
+**NOTE:** You may need to make some modifications to `style.css` if there are readability problems with the new theme
