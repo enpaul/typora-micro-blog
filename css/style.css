@@ -1,0 +1,152 @@
+.nav-menu {
+  text-align: left;
+  font-weight: bold;
+}
+.nav-menu a {
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  font-style: italic;
+  font-size: .8rem;
+}
+
+#header-icon {
+  vertical-align: top;
+  height: 2.5rem;
+  margin-right: 1rem;
+}
+
+@media only screen and (min-width: 551px) {
+  td.post-title {
+    font-size: 1.5rem;
+    color: white;
+  }
+  .post-micro-details {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #header-icon {
+    display: none;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  #PostListNumber {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  td.post-details {
+    display: none;
+  }
+  td.post-title {
+    width: 100%;
+    font-size: 1.25rem;
+  }
+  .post-micro-details {
+    color: rgb(184, 191, 198);
+    font-size: 0.75rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+}
+
+td {
+  vertical-align: middle;
+}
+
+td.post-title a {
+  text-decoration: none;
+}
+
+td.post-title a:hover {
+  text-decoration: underline;
+}
+
+td.post-details {
+  text-align: right;
+  width: 250px;
+  font-size: 0.75rem;
+  font-style: italic;
+  line-height: 1rem;
+}
+
+#PostList {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#PostListInterface {
+  text-align: right;
+}
+
+.paginate_button {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  margin-left: .5rem;
+  text-decoration: none;
+  border: gray;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 1px;
+  background-color: gray;
+  font-weight: bold;
+}
+
+a.paginate_button:hover {
+  background-color: white;
+  color: black;
+}
+
+span.tag {
+  border: gray;
+  border-style: solid;
+  border-width: 1px;
+  font-style: normal;
+  font-size: 0.6rem;
+  margin-left: 0.25rem;
+  padding-right: .15rem;
+  padding-left: .15rem;
+  line-height: 2rem;
+  cursor: pointer;
+}
+
+span.tag:hover {
+  border-color: white;
+}
+
+.paginate_button.disabled, a.current {
+  background: none;
+}
+
+a.paginate_button.disabled:hover, a.current:hover {
+  background: none;
+  color: white;
+}
+
+thead {
+ height: 0px;
+}
+
+body.typora-export {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#PostList_filter input {
+  width: 100%;
+  background: transparent;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 3px;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}

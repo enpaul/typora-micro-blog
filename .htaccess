@@ -1,0 +1,10 @@
+ErrorDocument 401 /_error/401.html
+ErrorDocument 403 /_error/403.html
+ErrorDocument 404 /_error/404.html
+ErrorDocument 405 /_error/405.html
+ErrorDocument 406 /_error/406.html
+ErrorDocument 412 /_error/412.html
+
+ErrorDocument 500 /_error/500.html
+ErrorDocument 501 /_error/501.html
+ErrorDocument 502 /_error/502.html

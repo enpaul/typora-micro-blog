@@ -1,0 +1,23 @@
+{
+  "title": "Lorem Ipsum Title",
+  "description": "Something that's awesome for sure",
+  "author": {
+    "name": "ENPaul",
+    "email": "enpaul@enpaul.net",
+    "social": {
+      "url": "https://enpaul.net",
+      "handle": "theenpaul"
+    }
+  },
+  "timestamp": {
+    "publish": "2018-04-06:18:32",
+    "update": "2018-04-06:18:32"
+  },
+  "words": 1234,
+  "slug": "lorem-ipsum",
+  "tags": [
+    "awesome",
+    "cool",
+    "stupendous"
+  ]
+}
