@@ -1,5 +1,7 @@
 # Typora Micro-Blog
 
+![Screenshot](_documentation/screenshot-homepage.jpg)
+
 ## Overview
 This software provides a website for hosting a microblog. I wanted a dead-simple blog: the ability to create posts with some bare-bones metadata, no comments, no interconnectivity, and no reliance on an external database. The styling and inspiration come from the [Night Theme](http://theme.typora.io/theme/Night/) for the [Typora Markdown Editor](https://typora.io/). As a result, it is optimized for integration with documents exported from Typora as HTML.
 
