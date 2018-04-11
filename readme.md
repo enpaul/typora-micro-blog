@@ -21,6 +21,6 @@ See the documentation directory
 ## Acknowledgements
 This includes some or all of the following software libraries:
 
-* JQuery 3.3.1
-* JQuery DataTables 1.10.16
-* Typora (0.9.48 beta) Night Theme
+* [JQuery 3.3.1](https://jquery.com/)
+* [JQuery DataTables 1.10.16](https://datatables.net/)
+* [Typora (0.9.48 beta) Night Theme](https://github.com/typora/typora-default-themes)
