@@ -12,7 +12,7 @@ The CSS styling for the Typora Night theme (included in this repository) is avai
 * Webserver of choice (Apache and IIS have been tested)
 
 ## Installation
-1. Clone the repository: `git clone https://gitlab.enpaul.net/enpaul/typora-micro-blog.git`
+1. Clone the repository: `git clone https://github.com/enpaul/typora-micro-blog.git`
 2. Point the root of your webserver at the repository
 
 ## Usage
